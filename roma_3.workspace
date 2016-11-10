@@ -1,14 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CodeLite_Workspace Name="roma_3" Database="">
-  <Project Name="rettangolo_base_altezza" Path="albero_base_altezza/albero_base_altezza.project" Active="Yes"/>
+  <Project Name="rettangolo_base_altezza" Path="albero_base_altezza/albero_base_altezza.project" Active="No"/>
+  <Project Name="inserimento_numeri_diversi_da_zero" Path="inserimento_numeri_diversi_da_zero/inserimento_numeri_diversi_da_zero.project" Active="No"/>
+  <Project Name="massimo_e_somma" Path="massimo_e_somma/massimo_e_somma.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
       <Project Name="rettangolo_base_altezza" ConfigName="Debug"/>
+      <Project Name="inserimento_numeri_diversi_da_zero" ConfigName="Debug"/>
+      <Project Name="massimo_e_somma" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
       <Project Name="rettangolo_base_altezza" ConfigName="Release"/>
+      <Project Name="inserimento_numeri_diversi_da_zero" ConfigName="Release"/>
+      <Project Name="massimo_e_somma" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
