@@ -2,31 +2,24 @@
 
 int main(int argc, char **argv)
 {
-	int a, b, c, d;
+	
+    int a,b,c,d;
     
     int i = 0;
+
+    printf("Caro utente, inserisci i numeri a,b,c,d.\n");
+    scanf("%d%d%d%d", &a,&b,&c,&d);
     
-    printf("Inserisci quattro numeri interi:\n");
+    if(((a==b) + (c==d) + (b!=c) + (a != d)) == 4) {
+        printf("Ci sono due coppie di numeri fra loro uguali.\n"); //OK
+    } else {
+        i += ( (a==b) + (b == a) + (b==c) + (c==d) + (a==d));
+        
+        i-= (a==d);
+        printf("Ci sono %d numeri fra loro uguali.\n", i);
+    }
     
-    /* Input */
-    printf("Primo numero:\t");
-    scanf("%d", &a);
+    printf("\n\n%d", ((a==b) + (c==d) + (b==c)));
     
-    printf("Secondo numero:\t");
-    scanf("%d", &b);
-    
-    printf("Terzo numero:\t");
-    scanf("%d", &c);
-    
-    printf("Quarto numero:\t");
-    scanf("%d", &d);
-    
-    /* Processing */
-    
-    i+=((a==b) + ((b==c) - (b == a)) + (c==d) + (d==a));
-    
-    /* Output */
-    
-    printf("\n\nCi sono esattamente %d numeri fra loro uguali.\n\n", i);
 	return 0;
 }

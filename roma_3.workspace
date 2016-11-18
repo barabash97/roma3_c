@@ -4,9 +4,9 @@
   <Project Name="inserimento_numeri_diversi_da_zero" Path="inserimento_numeri_diversi_da_zero/inserimento_numeri_diversi_da_zero.project" Active="No"/>
   <Project Name="massimo_e_somma" Path="massimo_e_somma/massimo_e_somma.project" Active="No"/>
   <Project Name="valore_max_min_tre_numeri_interi" Path="valore_max_min_tre_numeri_interi/valore_max_min_tre_numeri_interi.project" Active="No"/>
-  <Project Name="4_numeri_stampa_uguaglianza" Path="4_numeri_stampa_uguaglianza/4_numeri_stampa_uguaglianza.project" Active="No"/>
+  <Project Name="4_numeri_stampa_uguaglianza" Path="4_numeri_stampa_uguaglianza/4_numeri_stampa_uguaglianza.project" Active="Yes"/>
   <Project Name="fibonacci" Path="fibonacci/fibonacci.project" Active="No"/>
-  <Project Name="due_estremi_stampare_interi_non_div_per_3" Path="due_estremi_stampare_interi_non_div_per_3/due_estremi_stampare_interi_non_div_per_3.project" Active="Yes"/>
+  <Project Name="due_estremi_stampare_interi_non_div_per_3" Path="due_estremi_stampare_interi_non_div_per_3/due_estremi_stampare_interi_non_div_per_3.project" Active="No"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
