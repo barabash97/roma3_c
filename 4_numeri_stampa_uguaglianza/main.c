@@ -32,9 +32,8 @@ int main(int argc, char **argv)
     if(((a==b) + (c==d) + (b!=c) + (a != d)) == 4) {
         printf("Ci sono due coppie dei numeri fra loro uguali.\n"); //OK
     } else {
-        i += ( (a==b) + (b == a) + (b==c) + (c==d) + (a==d));
+        i += ( (a==b) + (b == a) + (b==c) + (c==d));
         
-        i-= (a==d);
         printf("Ci sono %d numeri fra loro uguali.\n", i);
     }
 
