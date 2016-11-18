@@ -1,8 +1,8 @@
 .PHONY: clean All
 
 All:
-	@echo "----------Building project:[ massimo_e_somma - Debug ]----------"
-	@cd "massimo_e_somma" && "$(MAKE)" -f  "massimo_e_somma.mk"
+	@echo "----------Building project:[ due_estremi_stampare_interi_non_div_per_3 - Debug ]----------"
+	@cd "due_estremi_stampare_interi_non_div_per_3" && "$(MAKE)" -f  "due_estremi_stampare_interi_non_div_per_3.mk"
 clean:
-	@echo "----------Cleaning project:[ massimo_e_somma - Debug ]----------"
-	@cd "massimo_e_somma" && "$(MAKE)" -f  "massimo_e_somma.mk" clean
+	@echo "----------Cleaning project:[ due_estremi_stampare_interi_non_div_per_3 - Debug ]----------"
+	@cd "due_estremi_stampare_interi_non_div_per_3" && "$(MAKE)" -f  "due_estremi_stampare_interi_non_div_per_3.mk" clean
