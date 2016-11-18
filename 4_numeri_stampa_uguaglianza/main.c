@@ -30,13 +30,13 @@ int main(int argc, char **argv)
     scanf("%d%d%d%d", &a,&b,&c,&d);
     
     if(((a==b) + (c==d) + (b!=c) + (a != d)) == 4) {
-        printf("Ci sono due coppie dEi numeri fra loro uguali.\n"); //OK
+        printf("Ci sono due coppie dei numeri fra loro uguali.\n"); //OK
     } else {
         i += ( (a==b) + (b == a) + (b==c) + (c==d) + (a==d));
         
         i-= (a==d);
         printf("Ci sono %d numeri fra loro uguali.\n", i);
     }
-    
+
 	return 0;
 }
