@@ -7,7 +7,8 @@
   <Project Name="4_numeri_stampa_uguaglianza" Path="4_numeri_stampa_uguaglianza/4_numeri_stampa_uguaglianza.project" Active="No"/>
   <Project Name="fibonacci" Path="fibonacci/fibonacci.project" Active="No"/>
   <Project Name="due_estremi_stampare_interi_non_div_per_3" Path="due_estremi_stampare_interi_non_div_per_3/due_estremi_stampare_interi_non_div_per_3.project" Active="No"/>
-  <Project Name="media_istruzioni_ripetitive_2" Path="media_istruzioni_ripetitive_2/media_istruzioni_ripetitive_2.project" Active="Yes"/>
+  <Project Name="media_istruzioni_ripetitive_2" Path="media_istruzioni_ripetitive_2/media_istruzioni_ripetitive_2.project" Active="No"/>
+  <Project Name="isPrimo" Path="isPrimo/isPrimo.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
@@ -19,6 +20,7 @@
       <Project Name="fibonacci" ConfigName="Debug"/>
       <Project Name="due_estremi_stampare_interi_non_div_per_3" ConfigName="Debug"/>
       <Project Name="media_istruzioni_ripetitive_2" ConfigName="Debug"/>
+      <Project Name="isPrimo" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
@@ -30,6 +32,7 @@
       <Project Name="fibonacci" ConfigName="Release"/>
       <Project Name="due_estremi_stampare_interi_non_div_per_3" ConfigName="Release"/>
       <Project Name="media_istruzioni_ripetitive_2" ConfigName="Release"/>
+      <Project Name="isPrimo" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
