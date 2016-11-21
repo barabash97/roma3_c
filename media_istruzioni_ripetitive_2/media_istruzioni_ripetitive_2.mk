@@ -3,10 +3,10 @@
 ## any manual changes will be erased      
 ##
 ## Debug
-ProjectName            :=fibonacci
+ProjectName            :=media_istruzioni_ripetitive_2
 ConfigurationName      :=Debug
 WorkspacePath          :=/home/darkness15/roma3_c
-ProjectPath            :=/home/darkness15/roma3_c/fibonacci
+ProjectPath            :=/home/darkness15/roma3_c/media_istruzioni_ripetitive_2
 IntermediateDirectory  :=./Debug
 OutDir                 := $(IntermediateDirectory)
 CurrentFileName        :=
@@ -32,7 +32,7 @@ Preprocessors          :=
 ObjectSwitch           :=-o 
 ArchiveOutputSwitch    := 
 PreprocessOnlySwitch   :=-E 
-ObjectsFileList        :="fibonacci.txt"
+ObjectsFileList        :="media_istruzioni_ripetitive_2.txt"
 PCHCompileFlags        :=
 MakeDirCommand         :=mkdir -p
 LinkOptions            :=  
@@ -60,7 +60,7 @@ AS       := as
 ## User defined environment variables
 ##
 CodeLiteDir:=/usr/share/codelite
-Objects0=$(IntermediateDirectory)/main_old.c$(ObjectSuffix) 
+Objects0=$(IntermediateDirectory)/main.c$(ObjectSuffix) 
 
 
 
@@ -91,13 +91,13 @@ PreBuild:
 ##
 ## Objects
 ##
-$(IntermediateDirectory)/main_old.c$(ObjectSuffix): main_old.c $(IntermediateDirectory)/main_old.c$(DependSuffix)
-	$(CC) $(SourceSwitch) "/home/darkness15/roma3_c/fibonacci/main_old.c" $(CFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/main_old.c$(ObjectSuffix) $(IncludePath)
-$(IntermediateDirectory)/main_old.c$(DependSuffix): main_old.c
-	@$(CC) $(CFLAGS) $(IncludePath) -MG -MP -MT$(IntermediateDirectory)/main_old.c$(ObjectSuffix) -MF$(IntermediateDirectory)/main_old.c$(DependSuffix) -MM main_old.c
+$(IntermediateDirectory)/main.c$(ObjectSuffix): main.c $(IntermediateDirectory)/main.c$(DependSuffix)
+	$(CC) $(SourceSwitch) "/home/darkness15/roma3_c/media_istruzioni_ripetitive_2/main.c" $(CFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/main.c$(ObjectSuffix) $(IncludePath)
+$(IntermediateDirectory)/main.c$(DependSuffix): main.c
+	@$(CC) $(CFLAGS) $(IncludePath) -MG -MP -MT$(IntermediateDirectory)/main.c$(ObjectSuffix) -MF$(IntermediateDirectory)/main.c$(DependSuffix) -MM main.c
 
-$(IntermediateDirectory)/main_old.c$(PreprocessSuffix): main_old.c
-	$(CC) $(CFLAGS) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/main_old.c$(PreprocessSuffix)main_old.c
+$(IntermediateDirectory)/main.c$(PreprocessSuffix): main.c
+	$(CC) $(CFLAGS) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/main.c$(PreprocessSuffix)main.c
 
 
 -include $(IntermediateDirectory)/*$(DependSuffix)
