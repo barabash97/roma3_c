@@ -1,8 +1,8 @@
 .PHONY: clean All
 
 All:
-	@echo "----------Building project:[ isPrimo - Debug ]----------"
-	@cd "isPrimo" && "$(MAKE)" -f  "isPrimo.mk"
+	@echo "----------Building project:[ isQuaCplus - Debug ]----------"
+	@cd "isQuaCplus" && "$(MAKE)" -f  "isQuaCplus.mk"
 clean:
-	@echo "----------Cleaning project:[ isPrimo - Debug ]----------"
-	@cd "isPrimo" && "$(MAKE)" -f  "isPrimo.mk" clean
+	@echo "----------Cleaning project:[ isQuaCplus - Debug ]----------"
+	@cd "isQuaCplus" && "$(MAKE)" -f  "isQuaCplus.mk" clean
