@@ -26,7 +26,7 @@ int main(int argc, char** argv) {
         do{
             printf("\nValore %d:\t", i+1);
             scanf("%d", &array[i]);
-        }while((array[i] != 0) && (array[i] != 1));
+        }while(array[i] < 0 || array[i] > 1);
     }
     
     /* OUTPUT */
@@ -35,7 +35,7 @@ int main(int argc, char** argv) {
     printf("\nIl risultato dell\'operazione e\': %d.\n", convertBinaryToDex(array, lunghezza));
     printf("\n########################################################\n");
 
-    return (EXIT_SUCCESS);
+    return 0;
 }
 
 /* Converte un'array con i valori binari in un valore decimale naturale. */
@@ -43,8 +43,11 @@ int convertBinaryToDex(int array[], int lunghezza){
     if(lunghezza == 0){
         return 0;
     }
+    
     int somma = 0; //Accumulazione
-    for(int i = 0; i < lunghezza; i++){
+    int i;
+    
+    for(i = 0; i < lunghezza; i++){
         somma += array[i] * pow(2, lunghezza-i-1);
     }
     return somma;
