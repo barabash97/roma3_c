@@ -53,4 +53,5 @@ int convertBinaryToDex(int array[], int lunghezza){
     return somma;
 }
 
+//Comment
 
