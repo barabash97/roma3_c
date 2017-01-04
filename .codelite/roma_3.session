@@ -2,7 +2,36 @@
 <Session Name="E:\OneDrive\OneDrive - Universita degli Studi Roma Tre\roma3_c\roma_3.workspace">
   <int Value="0" Name="m_selectedTab"/>
   <wxString Value="E:\OneDrive\OneDrive - Universita degli Studi Roma Tre\roma3_c\roma_3.workspace" Name="m_workspaceName"/>
-  <TabInfoArray Name="TabInfoArray"/>
+  <TabInfoArray Name="TabInfoArray">
+    <TabInfo>
+      <wxString Value="E:\OneDrive\OneDrive - Universita degli Studi Roma Tre\roma3_c\BatNav\main.c" Name="FileName"/>
+      <int Value="0" Name="FirstVisibleLine"/>
+      <int Value="20" Name="CurrentLine"/>
+      <wxArrayString Name="Bookmarks"/>
+      <IntVector Name="CollapsedFolds"/>
+    </TabInfo>
+    <TabInfo>
+      <wxString Value="E:\OneDrive\OneDrive - Universita degli Studi Roma Tre\roma3_c\BatNav\intro.c" Name="FileName"/>
+      <int Value="0" Name="FirstVisibleLine"/>
+      <int Value="0" Name="CurrentLine"/>
+      <wxArrayString Name="Bookmarks"/>
+      <IntVector Name="CollapsedFolds"/>
+    </TabInfo>
+    <TabInfo>
+      <wxString Value="E:\OneDrive\OneDrive - Universita degli Studi Roma Tre\roma3_c\BatNav\clearCls.c" Name="FileName"/>
+      <int Value="0" Name="FirstVisibleLine"/>
+      <int Value="8" Name="CurrentLine"/>
+      <wxArrayString Name="Bookmarks"/>
+      <IntVector Name="CollapsedFolds"/>
+    </TabInfo>
+    <TabInfo>
+      <wxString Value="E:\OneDrive\OneDrive - Universita degli Studi Roma Tre\roma3_c\BatNav\intest.h" Name="FileName"/>
+      <int Value="0" Name="FirstVisibleLine"/>
+      <int Value="12" Name="CurrentLine"/>
+      <wxArrayString Name="Bookmarks"/>
+      <IntVector Name="CollapsedFolds"/>
+    </TabInfo>
+  </TabInfoArray>
   <SerializedObject Name="m_breakpoints">
     <long Value="0" Name="Count"/>
   </SerializedObject>

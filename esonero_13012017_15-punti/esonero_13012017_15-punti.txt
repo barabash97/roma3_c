@@ -1,1 +1,1 @@
-./Debug/NienteNumeriSolitari.c.o   
+./Debug/funzioneConHeader.c.o ./Debug/molti.c.o   

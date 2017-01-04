@@ -62,7 +62,7 @@ AS       := C:/TDM-GCC-64/bin/as.exe
 ## User defined environment variables
 ##
 CodeLiteDir:=C:\Program Files\CodeLite
-Objects0=$(IntermediateDirectory)/NienteNumeriSolitari.c$(ObjectSuffix) 
+Objects0=$(IntermediateDirectory)/funzioneConHeader.c$(ObjectSuffix) $(IntermediateDirectory)/molti.c$(ObjectSuffix) 
 
 
 
@@ -93,13 +93,21 @@ PreBuild:
 ##
 ## Objects
 ##
-$(IntermediateDirectory)/NienteNumeriSolitari.c$(ObjectSuffix): NienteNumeriSolitari.c $(IntermediateDirectory)/NienteNumeriSolitari.c$(DependSuffix)
-	$(CC) $(SourceSwitch) "E:/OneDrive/OneDrive - Universita degli Studi Roma Tre/roma3_c/esonero_13012017_15-punti/NienteNumeriSolitari.c" $(CFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/NienteNumeriSolitari.c$(ObjectSuffix) $(IncludePath)
-$(IntermediateDirectory)/NienteNumeriSolitari.c$(DependSuffix): NienteNumeriSolitari.c
-	@$(CC) $(CFLAGS) $(IncludePath) -MG -MP -MT$(IntermediateDirectory)/NienteNumeriSolitari.c$(ObjectSuffix) -MF$(IntermediateDirectory)/NienteNumeriSolitari.c$(DependSuffix) -MM NienteNumeriSolitari.c
+$(IntermediateDirectory)/funzioneConHeader.c$(ObjectSuffix): funzioneConHeader.c $(IntermediateDirectory)/funzioneConHeader.c$(DependSuffix)
+	$(CC) $(SourceSwitch) "E:/OneDrive/OneDrive - Universita degli Studi Roma Tre/roma3_c/esonero_13012017_15-punti/funzioneConHeader.c" $(CFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/funzioneConHeader.c$(ObjectSuffix) $(IncludePath)
+$(IntermediateDirectory)/funzioneConHeader.c$(DependSuffix): funzioneConHeader.c
+	@$(CC) $(CFLAGS) $(IncludePath) -MG -MP -MT$(IntermediateDirectory)/funzioneConHeader.c$(ObjectSuffix) -MF$(IntermediateDirectory)/funzioneConHeader.c$(DependSuffix) -MM funzioneConHeader.c
 
-$(IntermediateDirectory)/NienteNumeriSolitari.c$(PreprocessSuffix): NienteNumeriSolitari.c
-	$(CC) $(CFLAGS) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/NienteNumeriSolitari.c$(PreprocessSuffix)NienteNumeriSolitari.c
+$(IntermediateDirectory)/funzioneConHeader.c$(PreprocessSuffix): funzioneConHeader.c
+	$(CC) $(CFLAGS) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/funzioneConHeader.c$(PreprocessSuffix)funzioneConHeader.c
+
+$(IntermediateDirectory)/molti.c$(ObjectSuffix): molti.c $(IntermediateDirectory)/molti.c$(DependSuffix)
+	$(CC) $(SourceSwitch) "E:/OneDrive/OneDrive - Universita degli Studi Roma Tre/roma3_c/esonero_13012017_15-punti/molti.c" $(CFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/molti.c$(ObjectSuffix) $(IncludePath)
+$(IntermediateDirectory)/molti.c$(DependSuffix): molti.c
+	@$(CC) $(CFLAGS) $(IncludePath) -MG -MP -MT$(IntermediateDirectory)/molti.c$(ObjectSuffix) -MF$(IntermediateDirectory)/molti.c$(DependSuffix) -MM molti.c
+
+$(IntermediateDirectory)/molti.c$(PreprocessSuffix): molti.c
+	$(CC) $(CFLAGS) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/molti.c$(PreprocessSuffix)molti.c
 
 
 -include $(IntermediateDirectory)/*$(DependSuffix)

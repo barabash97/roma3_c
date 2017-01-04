@@ -101,6 +101,9 @@
     <File Name="CrescentePiuLunga.c" ExcludeProjConfig="Debug"/>
     <File Name="Sottosequenza.c" ExcludeProjConfig="Debug"/>
     <File Name="CodificaBinaria.c" ExcludeProjConfig="Debug"/>
-    <File Name="NienteNumeriSolitari.c"/>
+    <File Name="NienteNumeriSolitari.c" ExcludeProjConfig="Debug"/>
+    <File Name="funzioneConHeader.c"/>
+    <File Name="molti.h"/>
+    <File Name="molti.c"/>
   </VirtualDirectory>
 </CodeLite_Project>
