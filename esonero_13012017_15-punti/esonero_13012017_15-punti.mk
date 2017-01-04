@@ -3,17 +3,17 @@
 ## any manual changes will be erased      
 ##
 ## Debug
-ProjectName            :=escursione
+ProjectName            :=esonero_13012017_15-punti
 ConfigurationName      :=Debug
 WorkspacePath          :="E:/OneDrive/OneDrive - Universita degli Studi Roma Tre/roma3_c"
-ProjectPath            :="E:/OneDrive/OneDrive - Universita degli Studi Roma Tre/roma3_c/escursione"
+ProjectPath            :="E:/OneDrive/OneDrive - Universita degli Studi Roma Tre/roma3_c/esonero_13012017_15-punti"
 IntermediateDirectory  :=./Debug
 OutDir                 := $(IntermediateDirectory)
 CurrentFileName        :=
 CurrentFilePath        :=
 CurrentFileFullPath    :=
 User                   :=darkness
-Date                   :=03/01/2017
+Date                   :=04/01/2017
 CodeLitePath           :="C:/Program Files/CodeLite"
 LinkerName             :=C:/TDM-GCC-64/bin/g++.exe
 SharedObjectLinkerName :=C:/TDM-GCC-64/bin/g++.exe -shared -fPIC
@@ -32,7 +32,7 @@ Preprocessors          :=
 ObjectSwitch           :=-o 
 ArchiveOutputSwitch    := 
 PreprocessOnlySwitch   :=-E
-ObjectsFileList        :="escursione.txt"
+ObjectsFileList        :="esonero_13012017_15-punti.txt"
 PCHCompileFlags        :=
 MakeDirCommand         :=makedir
 RcCmpOptions           := 
@@ -62,7 +62,7 @@ AS       := C:/TDM-GCC-64/bin/as.exe
 ## User defined environment variables
 ##
 CodeLiteDir:=C:\Program Files\CodeLite
-Objects0=$(IntermediateDirectory)/main.c$(ObjectSuffix) 
+Objects0=$(IntermediateDirectory)/Sottosequenza.c$(ObjectSuffix) 
 
 
 
@@ -93,13 +93,13 @@ PreBuild:
 ##
 ## Objects
 ##
-$(IntermediateDirectory)/main.c$(ObjectSuffix): main.c $(IntermediateDirectory)/main.c$(DependSuffix)
-	$(CC) $(SourceSwitch) "E:/OneDrive/OneDrive - Universita degli Studi Roma Tre/roma3_c/escursione/main.c" $(CFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/main.c$(ObjectSuffix) $(IncludePath)
-$(IntermediateDirectory)/main.c$(DependSuffix): main.c
-	@$(CC) $(CFLAGS) $(IncludePath) -MG -MP -MT$(IntermediateDirectory)/main.c$(ObjectSuffix) -MF$(IntermediateDirectory)/main.c$(DependSuffix) -MM main.c
+$(IntermediateDirectory)/Sottosequenza.c$(ObjectSuffix): Sottosequenza.c $(IntermediateDirectory)/Sottosequenza.c$(DependSuffix)
+	$(CC) $(SourceSwitch) "E:/OneDrive/OneDrive - Universita degli Studi Roma Tre/roma3_c/esonero_13012017_15-punti/Sottosequenza.c" $(CFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/Sottosequenza.c$(ObjectSuffix) $(IncludePath)
+$(IntermediateDirectory)/Sottosequenza.c$(DependSuffix): Sottosequenza.c
+	@$(CC) $(CFLAGS) $(IncludePath) -MG -MP -MT$(IntermediateDirectory)/Sottosequenza.c$(ObjectSuffix) -MF$(IntermediateDirectory)/Sottosequenza.c$(DependSuffix) -MM Sottosequenza.c
 
-$(IntermediateDirectory)/main.c$(PreprocessSuffix): main.c
-	$(CC) $(CFLAGS) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/main.c$(PreprocessSuffix)main.c
+$(IntermediateDirectory)/Sottosequenza.c$(PreprocessSuffix): Sottosequenza.c
+	$(CC) $(CFLAGS) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/Sottosequenza.c$(PreprocessSuffix)Sottosequenza.c
 
 
 -include $(IntermediateDirectory)/*$(DependSuffix)
