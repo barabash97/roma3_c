@@ -99,6 +99,8 @@
     <File Name="Palindroma.c" ExcludeProjConfig="Debug"/>
     <File Name="UgualeSommaPrecedenti.c" ExcludeProjConfig="Debug"/>
     <File Name="CrescentePiuLunga.c" ExcludeProjConfig="Debug"/>
-    <File Name="Sottosequenza.c"/>
+    <File Name="Sottosequenza.c" ExcludeProjConfig="Debug"/>
+    <File Name="CodificaBinaria.c" ExcludeProjConfig="Debug"/>
+    <File Name="NienteNumeriSolitari.c"/>
   </VirtualDirectory>
 </CodeLite_Project>

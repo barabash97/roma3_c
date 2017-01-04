@@ -1,1 +1,1 @@
-./Debug/Sottosequenza.c.o   
+./Debug/NienteNumeriSolitari.c.o   

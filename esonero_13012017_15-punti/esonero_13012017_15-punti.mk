@@ -62,7 +62,7 @@ AS       := C:/TDM-GCC-64/bin/as.exe
 ## User defined environment variables
 ##
 CodeLiteDir:=C:\Program Files\CodeLite
-Objects0=$(IntermediateDirectory)/Sottosequenza.c$(ObjectSuffix) 
+Objects0=$(IntermediateDirectory)/NienteNumeriSolitari.c$(ObjectSuffix) 
 
 
 
@@ -93,13 +93,13 @@ PreBuild:
 ##
 ## Objects
 ##
-$(IntermediateDirectory)/Sottosequenza.c$(ObjectSuffix): Sottosequenza.c $(IntermediateDirectory)/Sottosequenza.c$(DependSuffix)
-	$(CC) $(SourceSwitch) "E:/OneDrive/OneDrive - Universita degli Studi Roma Tre/roma3_c/esonero_13012017_15-punti/Sottosequenza.c" $(CFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/Sottosequenza.c$(ObjectSuffix) $(IncludePath)
-$(IntermediateDirectory)/Sottosequenza.c$(DependSuffix): Sottosequenza.c
-	@$(CC) $(CFLAGS) $(IncludePath) -MG -MP -MT$(IntermediateDirectory)/Sottosequenza.c$(ObjectSuffix) -MF$(IntermediateDirectory)/Sottosequenza.c$(DependSuffix) -MM Sottosequenza.c
+$(IntermediateDirectory)/NienteNumeriSolitari.c$(ObjectSuffix): NienteNumeriSolitari.c $(IntermediateDirectory)/NienteNumeriSolitari.c$(DependSuffix)
+	$(CC) $(SourceSwitch) "E:/OneDrive/OneDrive - Universita degli Studi Roma Tre/roma3_c/esonero_13012017_15-punti/NienteNumeriSolitari.c" $(CFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/NienteNumeriSolitari.c$(ObjectSuffix) $(IncludePath)
+$(IntermediateDirectory)/NienteNumeriSolitari.c$(DependSuffix): NienteNumeriSolitari.c
+	@$(CC) $(CFLAGS) $(IncludePath) -MG -MP -MT$(IntermediateDirectory)/NienteNumeriSolitari.c$(ObjectSuffix) -MF$(IntermediateDirectory)/NienteNumeriSolitari.c$(DependSuffix) -MM NienteNumeriSolitari.c
 
-$(IntermediateDirectory)/Sottosequenza.c$(PreprocessSuffix): Sottosequenza.c
-	$(CC) $(CFLAGS) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/Sottosequenza.c$(PreprocessSuffix)Sottosequenza.c
+$(IntermediateDirectory)/NienteNumeriSolitari.c$(PreprocessSuffix): NienteNumeriSolitari.c
+	$(CC) $(CFLAGS) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/NienteNumeriSolitari.c$(PreprocessSuffix)NienteNumeriSolitari.c
 
 
 -include $(IntermediateDirectory)/*$(DependSuffix)
