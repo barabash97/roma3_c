@@ -3,17 +3,17 @@
 ## any manual changes will be erased      
 ##
 ## Debug
-ProjectName            :=media_istruzioni_ripetitive_2
+ProjectName            :=esonero130117_15punti
 ConfigurationName      :=Debug
 WorkspacePath          :="E:/OneDrive/OneDrive - Universita degli Studi Roma Tre/roma3_c"
-ProjectPath            :="E:/OneDrive/OneDrive - Universita degli Studi Roma Tre/roma3_c/media_istruzioni_ripetitive_2"
+ProjectPath            :="E:/OneDrive/OneDrive - Universita degli Studi Roma Tre/roma3_c/esonero130117_15punti"
 IntermediateDirectory  :=./Debug
 OutDir                 := $(IntermediateDirectory)
 CurrentFileName        :=
 CurrentFilePath        :=
 CurrentFileFullPath    :=
 User                   :=darkness
-Date                   :=03/01/2017
+Date                   :=13/01/2017
 CodeLitePath           :="C:/Program Files/CodeLite"
 LinkerName             :=C:/TDM-GCC-64/bin/g++.exe
 SharedObjectLinkerName :=C:/TDM-GCC-64/bin/g++.exe -shared -fPIC
@@ -32,7 +32,7 @@ Preprocessors          :=
 ObjectSwitch           :=-o 
 ArchiveOutputSwitch    := 
 PreprocessOnlySwitch   :=-E
-ObjectsFileList        :="media_istruzioni_ripetitive_2.txt"
+ObjectsFileList        :="esonero130117_15punti.txt"
 PCHCompileFlags        :=
 MakeDirCommand         :=makedir
 RcCmpOptions           := 
@@ -94,7 +94,7 @@ PreBuild:
 ## Objects
 ##
 $(IntermediateDirectory)/main.c$(ObjectSuffix): main.c $(IntermediateDirectory)/main.c$(DependSuffix)
-	$(CC) $(SourceSwitch) "E:/OneDrive/OneDrive - Universita degli Studi Roma Tre/roma3_c/media_istruzioni_ripetitive_2/main.c" $(CFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/main.c$(ObjectSuffix) $(IncludePath)
+	$(CC) $(SourceSwitch) "E:/OneDrive/OneDrive - Universita degli Studi Roma Tre/roma3_c/esonero130117_15punti/main.c" $(CFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/main.c$(ObjectSuffix) $(IncludePath)
 $(IntermediateDirectory)/main.c$(DependSuffix): main.c
 	@$(CC) $(CFLAGS) $(IncludePath) -MG -MP -MT$(IntermediateDirectory)/main.c$(ObjectSuffix) -MF$(IntermediateDirectory)/main.c$(DependSuffix) -MM main.c
 
