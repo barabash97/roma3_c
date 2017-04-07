@@ -14,7 +14,8 @@
   <Project Name="disposizione2_ricorsione" Path="disposizione2_ricorsione/disposizione2_ricorsione.project" Active="No"/>
   <Project Name="palindroma_ricorsione" Path="palindroma_ricorsione/palindroma_ricorsione.project" Active="No"/>
   <Project Name="somma_prodotto_ricorsivo" Path="somma_prodotto_ricorsivo/somma_prodotto_ricorsivo.project" Active="No"/>
-  <Project Name="hanoi_ricorsivo" Path="hanoi_ricorsivo/hanoi_ricorsivo.project" Active="Yes"/>
+  <Project Name="hanoi_ricorsivo" Path="hanoi_ricorsivo/hanoi_ricorsivo.project" Active="No"/>
+  <Project Name="puntatori_array_scandire" Path="puntatori_array_scandire/puntatori_array_scandire.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
@@ -33,6 +34,7 @@
       <Project Name="palindroma_ricorsione" ConfigName="Debug"/>
       <Project Name="somma_prodotto_ricorsivo" ConfigName="Debug"/>
       <Project Name="hanoi_ricorsivo" ConfigName="Debug"/>
+      <Project Name="puntatori_array_scandire" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
@@ -51,6 +53,7 @@
       <Project Name="palindroma_ricorsione" ConfigName="Release"/>
       <Project Name="somma_prodotto_ricorsivo" ConfigName="Release"/>
       <Project Name="hanoi_ricorsivo" ConfigName="Release"/>
+      <Project Name="puntatori_array_scandire" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
