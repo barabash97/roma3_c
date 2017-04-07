@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeLite_Workspace Name="programmazione_c" Database="" Version="10.0.0">
+  <Project Name="demo" Path="demo/demo.project" Active="No"/>
+  <Project Name="esercitazione0803" Path="esercitazione0803/esercitazione0803.project" Active="No"/>
+  <Project Name="verifica_esistenziale_ricorsione" Path="verifica_esistenziale_ricorsione/verifica_esistenziale_ricorsione.project" Active="No"/>
+  <Project Name="fattoriale_ricorsione" Path="fattoriale_ricorsione/fattoriale_ricorsione.project" Active="No"/>
+  <Project Name="recprod" Path="recprod/recprod.project" Active="No"/>
+  <Project Name="calcolarePotenza_ricorsione" Path="calcolarePotenza_ricorsione/calcolarePotenza_ricorsione.project" Active="No"/>
+  <Project Name="mcd_ricorsivo" Path="mcd_ricorsivo/mcd_ricorsivo.project" Active="No"/>
+  <Project Name="fibonacci_ricorsione" Path="fibonacci_ricorsione/fibonacci_ricorsione.project" Active="No"/>
+  <Project Name="min_max_puntatori" Path="min_max_puntatori/min_max_puntatori.project" Active="No"/>
+  <Project Name="maiuscolo_a_minuscolo_e_viceversa" Path="maiuscolo_a_minuscolo_e_viceversa/maiuscolo_a_minuscolo_e_viceversa.project" Active="No"/>
+  <Project Name="ricorsione_fattoriale_2" Path="ricorsione_fattoriale_2/ricorsione_fattoriale_2.project" Active="No"/>
+  <Project Name="disposizione2_ricorsione" Path="disposizione2_ricorsione/disposizione2_ricorsione.project" Active="No"/>
+  <Project Name="palindroma_ricorsione" Path="palindroma_ricorsione/palindroma_ricorsione.project" Active="No"/>
+  <Project Name="somma_prodotto_ricorsivo" Path="somma_prodotto_ricorsivo/somma_prodotto_ricorsivo.project" Active="No"/>
+  <Project Name="hanoi_ricorsivo" Path="hanoi_ricorsivo/hanoi_ricorsivo.project" Active="Yes"/>
+  <BuildMatrix>
+    <WorkspaceConfiguration Name="Debug" Selected="yes">
+      <Environment/>
+      <Project Name="demo" ConfigName="Debug"/>
+      <Project Name="esercitazione0803" ConfigName="Debug"/>
+      <Project Name="verifica_esistenziale_ricorsione" ConfigName="Debug"/>
+      <Project Name="fattoriale_ricorsione" ConfigName="Debug"/>
+      <Project Name="recprod" ConfigName="Debug"/>
+      <Project Name="calcolarePotenza_ricorsione" ConfigName="Debug"/>
+      <Project Name="mcd_ricorsivo" ConfigName="Debug"/>
+      <Project Name="fibonacci_ricorsione" ConfigName="Debug"/>
+      <Project Name="min_max_puntatori" ConfigName="Debug"/>
+      <Project Name="maiuscolo_a_minuscolo_e_viceversa" ConfigName="Debug"/>
+      <Project Name="ricorsione_fattoriale_2" ConfigName="Debug"/>
+      <Project Name="disposizione2_ricorsione" ConfigName="Debug"/>
+      <Project Name="palindroma_ricorsione" ConfigName="Debug"/>
+      <Project Name="somma_prodotto_ricorsivo" ConfigName="Debug"/>
+      <Project Name="hanoi_ricorsivo" ConfigName="Debug"/>
+    </WorkspaceConfiguration>
+    <WorkspaceConfiguration Name="Release" Selected="yes">
+      <Environment/>
+      <Project Name="demo" ConfigName="Release"/>
+      <Project Name="esercitazione0803" ConfigName="Release"/>
+      <Project Name="verifica_esistenziale_ricorsione" ConfigName="Release"/>
+      <Project Name="fattoriale_ricorsione" ConfigName="Release"/>
+      <Project Name="recprod" ConfigName="Release"/>
+      <Project Name="calcolarePotenza_ricorsione" ConfigName="Release"/>
+      <Project Name="mcd_ricorsivo" ConfigName="Release"/>
+      <Project Name="fibonacci_ricorsione" ConfigName="Release"/>
+      <Project Name="min_max_puntatori" ConfigName="Release"/>
+      <Project Name="maiuscolo_a_minuscolo_e_viceversa" ConfigName="Release"/>
+      <Project Name="ricorsione_fattoriale_2" ConfigName="Release"/>
+      <Project Name="disposizione2_ricorsione" ConfigName="Release"/>
+      <Project Name="palindroma_ricorsione" ConfigName="Release"/>
+      <Project Name="somma_prodotto_ricorsivo" ConfigName="Release"/>
+      <Project Name="hanoi_ricorsivo" ConfigName="Release"/>
+    </WorkspaceConfiguration>
+  </BuildMatrix>
+</CodeLite_Workspace>
