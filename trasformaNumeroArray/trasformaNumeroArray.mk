@@ -3,10 +3,10 @@
 ## any manual changes will be erased      
 ##
 ## Debug
-ProjectName            :=doppia_stringa
+ProjectName            :=trasformaNumeroArray
 ConfigurationName      :=Debug
 WorkspacePath          :="D:/OneDrive - Universita degli Studi Roma Tre/roma3_c"
-ProjectPath            :="D:/OneDrive - Universita degli Studi Roma Tre/roma3_c/doppia_stringa"
+ProjectPath            :="D:/OneDrive - Universita degli Studi Roma Tre/roma3_c/trasformaNumeroArray"
 IntermediateDirectory  :=./Debug
 OutDir                 := $(IntermediateDirectory)
 CurrentFileName        :=
@@ -32,7 +32,7 @@ Preprocessors          :=
 ObjectSwitch           :=-o 
 ArchiveOutputSwitch    := 
 PreprocessOnlySwitch   :=-E
-ObjectsFileList        :="doppia_stringa.txt"
+ObjectsFileList        :="trasformaNumeroArray.txt"
 PCHCompileFlags        :=
 MakeDirCommand         :=makedir
 RcCmpOptions           := 
@@ -94,7 +94,7 @@ PreBuild:
 ## Objects
 ##
 $(IntermediateDirectory)/main.c$(ObjectSuffix): main.c $(IntermediateDirectory)/main.c$(DependSuffix)
-	$(CC) $(SourceSwitch) "D:/OneDrive - Universita degli Studi Roma Tre/roma3_c/doppia_stringa/main.c" $(CFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/main.c$(ObjectSuffix) $(IncludePath)
+	$(CC) $(SourceSwitch) "D:/OneDrive - Universita degli Studi Roma Tre/roma3_c/trasformaNumeroArray/main.c" $(CFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/main.c$(ObjectSuffix) $(IncludePath)
 $(IntermediateDirectory)/main.c$(DependSuffix): main.c
 	@$(CC) $(CFLAGS) $(IncludePath) -MG -MP -MT$(IntermediateDirectory)/main.c$(ObjectSuffix) -MF$(IntermediateDirectory)/main.c$(DependSuffix) -MM main.c
 

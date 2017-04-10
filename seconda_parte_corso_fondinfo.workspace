@@ -1,14 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CodeLite_Workspace Name="seconda_parte_corso_fondinfo" Database="" Version="10.0.0">
-  <Project Name="doppia_stringa" Path="doppia_stringa/doppia_stringa.project" Active="Yes"/>
+  <Project Name="doppia_stringa" Path="doppia_stringa/doppia_stringa.project" Active="No"/>
+  <Project Name="differenzaCaratteriNumerici" Path="differenzaCaratteriNumerici/differenzaCaratteriNumerici.project" Active="No"/>
+  <Project Name="contaCifre" Path="contaCifre/contaCifre.project" Active="No"/>
+  <Project Name="trasformaArrayNumero" Path="trasformaArrayNumero/trasformaArrayNumero.project" Active="No"/>
+  <Project Name="trasformaNumeroArray" Path="trasformaNumeroArray/trasformaNumeroArray.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
       <Project Name="doppia_stringa" ConfigName="Debug"/>
+      <Project Name="differenzaCaratteriNumerici" ConfigName="Debug"/>
+      <Project Name="contaCifre" ConfigName="Debug"/>
+      <Project Name="trasformaArrayNumero" ConfigName="Debug"/>
+      <Project Name="trasformaNumeroArray" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
       <Project Name="doppia_stringa" ConfigName="Release"/>
+      <Project Name="differenzaCaratteriNumerici" ConfigName="Release"/>
+      <Project Name="contaCifre" ConfigName="Release"/>
+      <Project Name="trasformaArrayNumero" ConfigName="Release"/>
+      <Project Name="trasformaNumeroArray" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
