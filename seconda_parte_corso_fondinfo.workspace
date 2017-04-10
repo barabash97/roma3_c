@@ -4,7 +4,12 @@
   <Project Name="differenzaCaratteriNumerici" Path="differenzaCaratteriNumerici/differenzaCaratteriNumerici.project" Active="No"/>
   <Project Name="contaCifre" Path="contaCifre/contaCifre.project" Active="No"/>
   <Project Name="trasformaArrayNumero" Path="trasformaArrayNumero/trasformaArrayNumero.project" Active="No"/>
-  <Project Name="trasformaNumeroArray" Path="trasformaNumeroArray/trasformaNumeroArray.project" Active="Yes"/>
+  <Project Name="trasformaNumeroArray" Path="trasformaNumeroArray/trasformaNumeroArray.project" Active="No"/>
+  <Project Name="stringaInvertita" Path="stringaInvertita/stringaInvertita.project" Active="No"/>
+  <Project Name="NumeroPositivi" Path="NumeroPositivi/NumeroPositivi.project" Active="No"/>
+  <Project Name="ConsecutiviUguali" Path="ConsecutiviUguali/ConsecutiviUguali.project" Active="No"/>
+  <Project Name="Multiplidi3Positivo" Path="Multiplidi3Positivo/Multiplidi3Positivo.project" Active="No"/>
+  <Project Name="sequenzaCrescente" Path="sequenzaCrescente/sequenzaCrescente.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
@@ -13,6 +18,11 @@
       <Project Name="contaCifre" ConfigName="Debug"/>
       <Project Name="trasformaArrayNumero" ConfigName="Debug"/>
       <Project Name="trasformaNumeroArray" ConfigName="Debug"/>
+      <Project Name="stringaInvertita" ConfigName="Debug"/>
+      <Project Name="NumeroPositivi" ConfigName="Debug"/>
+      <Project Name="ConsecutiviUguali" ConfigName="Debug"/>
+      <Project Name="Multiplidi3Positivo" ConfigName="Debug"/>
+      <Project Name="sequenzaCrescente" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
@@ -21,6 +31,11 @@
       <Project Name="contaCifre" ConfigName="Release"/>
       <Project Name="trasformaArrayNumero" ConfigName="Release"/>
       <Project Name="trasformaNumeroArray" ConfigName="Release"/>
+      <Project Name="stringaInvertita" ConfigName="Release"/>
+      <Project Name="NumeroPositivi" ConfigName="Release"/>
+      <Project Name="ConsecutiviUguali" ConfigName="Release"/>
+      <Project Name="Multiplidi3Positivo" ConfigName="Release"/>
+      <Project Name="sequenzaCrescente" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
