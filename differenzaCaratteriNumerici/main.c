@@ -47,8 +47,8 @@ int differenzaCaratteriNumerici(char *stringa){
                 
                 if(differenzaAttuale > differenzaMassima) differenzaMassima = differenzaAttuale;
                 
-                ultimoNumero = numeroCorrente;
             }
+            ultimoNumero = numeroCorrente;
         }
     }
     

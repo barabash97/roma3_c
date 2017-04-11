@@ -9,7 +9,20 @@
   <Project Name="NumeroPositivi" Path="NumeroPositivi/NumeroPositivi.project" Active="No"/>
   <Project Name="ConsecutiviUguali" Path="ConsecutiviUguali/ConsecutiviUguali.project" Active="No"/>
   <Project Name="Multiplidi3Positivo" Path="Multiplidi3Positivo/Multiplidi3Positivo.project" Active="No"/>
-  <Project Name="sequenzaCrescente" Path="sequenzaCrescente/sequenzaCrescente.project" Active="Yes"/>
+  <Project Name="sequenzaCrescente" Path="sequenzaCrescente/sequenzaCrescente.project" Active="No"/>
+  <Project Name="distanzaMinima" Path="distanzaMinima/distanzaMinima.project" Active="No"/>
+  <Project Name="sommaTriple" Path="sommaTriple/sommaTriple.project" Active="No"/>
+  <Project Name="NumeroMassimo" Path="NumeroMassimo/NumeroMassimo.project" Active="No"/>
+  <Project Name="tutteMaiuscole" Path="tutteMaiuscole/tutteMaiuscole.project" Active="No"/>
+  <Project Name="selectionSort" Path="selectionSort/selectionSort.project" Active="No"/>
+  <Project Name="selectionSortImplemMigliore" Path="selectionSortImplemMigliore/selectionSortImplemMigliore.project" Active="No"/>
+  <Project Name="insertionSort" Path="insertionSort/insertionSort.project" Active="No"/>
+  <Project Name="bubbleSort" Path="bubbleSort/bubbleSort.project" Active="No"/>
+  <Project Name="mcdRicorsivo" Path="mcdRicorsivo/mcdRicorsivo.project" Active="No"/>
+  <Project Name="fibonacciRicorsione" Path="fibonacciRicorsione/fibonacciRicorsione.project" Active="No"/>
+  <Project Name="contaCaratteri" Path="contaCaratteri/contaCaratteri.project" Active="No"/>
+  <Project Name="palindromaRec" Path="palindromaRec/palindromaRec.project" Active="No"/>
+  <Project Name="stringaMinuscola" Path="stringaMinuscola/stringaMinuscola.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
@@ -23,6 +36,19 @@
       <Project Name="ConsecutiviUguali" ConfigName="Debug"/>
       <Project Name="Multiplidi3Positivo" ConfigName="Debug"/>
       <Project Name="sequenzaCrescente" ConfigName="Debug"/>
+      <Project Name="distanzaMinima" ConfigName="Debug"/>
+      <Project Name="sommaTriple" ConfigName="Debug"/>
+      <Project Name="NumeroMassimo" ConfigName="Debug"/>
+      <Project Name="tutteMaiuscole" ConfigName="Debug"/>
+      <Project Name="selectionSort" ConfigName="Debug"/>
+      <Project Name="selectionSortImplemMigliore" ConfigName="Debug"/>
+      <Project Name="insertionSort" ConfigName="Debug"/>
+      <Project Name="bubbleSort" ConfigName="Debug"/>
+      <Project Name="mcdRicorsivo" ConfigName="Debug"/>
+      <Project Name="fibonacciRicorsione" ConfigName="Debug"/>
+      <Project Name="contaCaratteri" ConfigName="Debug"/>
+      <Project Name="palindromaRec" ConfigName="Debug"/>
+      <Project Name="stringaMinuscola" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
@@ -36,6 +62,19 @@
       <Project Name="ConsecutiviUguali" ConfigName="Release"/>
       <Project Name="Multiplidi3Positivo" ConfigName="Release"/>
       <Project Name="sequenzaCrescente" ConfigName="Release"/>
+      <Project Name="distanzaMinima" ConfigName="Release"/>
+      <Project Name="sommaTriple" ConfigName="Release"/>
+      <Project Name="NumeroMassimo" ConfigName="Release"/>
+      <Project Name="tutteMaiuscole" ConfigName="Release"/>
+      <Project Name="selectionSort" ConfigName="Release"/>
+      <Project Name="selectionSortImplemMigliore" ConfigName="Release"/>
+      <Project Name="insertionSort" ConfigName="Release"/>
+      <Project Name="bubbleSort" ConfigName="Release"/>
+      <Project Name="mcdRicorsivo" ConfigName="Release"/>
+      <Project Name="fibonacciRicorsione" ConfigName="Release"/>
+      <Project Name="contaCaratteri" ConfigName="Release"/>
+      <Project Name="palindromaRec" ConfigName="Release"/>
+      <Project Name="stringaMinuscola" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
