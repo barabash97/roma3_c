@@ -22,7 +22,9 @@
   <Project Name="fibonacciRicorsione" Path="fibonacciRicorsione/fibonacciRicorsione.project" Active="No"/>
   <Project Name="contaCaratteri" Path="contaCaratteri/contaCaratteri.project" Active="No"/>
   <Project Name="palindromaRec" Path="palindromaRec/palindromaRec.project" Active="No"/>
-  <Project Name="stringaMinuscola" Path="stringaMinuscola/stringaMinuscola.project" Active="Yes"/>
+  <Project Name="stringaMinuscola" Path="stringaMinuscola/stringaMinuscola.project" Active="No"/>
+  <Project Name="potenzaRec" Path="potenzaRec/potenzaRec.project" Active="No"/>
+  <Project Name="polinomioRec" Path="polinomioRec/polinomioRec.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
@@ -49,6 +51,8 @@
       <Project Name="contaCaratteri" ConfigName="Debug"/>
       <Project Name="palindromaRec" ConfigName="Debug"/>
       <Project Name="stringaMinuscola" ConfigName="Debug"/>
+      <Project Name="potenzaRec" ConfigName="Debug"/>
+      <Project Name="polinomioRec" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
@@ -75,6 +79,8 @@
       <Project Name="contaCaratteri" ConfigName="Release"/>
       <Project Name="palindromaRec" ConfigName="Release"/>
       <Project Name="stringaMinuscola" ConfigName="Release"/>
+      <Project Name="potenzaRec" ConfigName="Release"/>
+      <Project Name="polinomioRec" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
