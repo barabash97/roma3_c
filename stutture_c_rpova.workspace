@@ -1,14 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CodeLite_Workspace Name="stutture_c_rpova" Database="" Version="10.0.0">
-  <Project Name="struct_1" Path="struct_1/struct_1.project" Active="Yes"/>
+  <Project Name="struct_1" Path="struct_1/struct_1.project" Active="No"/>
+  <Project Name="structArray" Path="structArray/structArray.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
       <Project Name="struct_1" ConfigName="Debug"/>
+      <Project Name="structArray" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
       <Project Name="struct_1" ConfigName="Release"/>
+      <Project Name="structArray" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>

@@ -19,9 +19,17 @@ struct Libro creaLibro(){
     
     return libro;
 }
+
+void creaLibroDaIndirizzo(struct Libro *libro){
+    libro->anno = 2018;
+    libro->titolo = "Libro non uscito";
+    libro->nome_autore = "Nome futuro";
+    libro->cognome_autore = "Cognome sconosciuto";
+    libro->prezzo = 100.43;
+}
 int main(int argc, char **argv)
 {
-	struct Libro libro1 = creaLibro(); //Inizializzazione della struttura
+	//struct Libro libro1 = creaLibro(); //Inizializzazione della struttura
     
     /* Impostazione dei valori*/
     /*
@@ -31,6 +39,9 @@ int main(int argc, char **argv)
     libro1.cognome_autore = "Oakley";
     libro1.prezzo = 14.99;
     */
+    
+    struct Libro libro1;
+    creaLibroDaIndirizzo(&libro1);
     
     /* Stampa */
     printf("%s\n", libro1.titolo);
