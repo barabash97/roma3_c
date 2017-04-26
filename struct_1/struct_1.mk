@@ -5,8 +5,8 @@
 ## Debug
 ProjectName            :=struct_1
 ConfigurationName      :=Debug
-WorkspacePath          :=/home/darkness/Documenti/stutture_c_rpova
-ProjectPath            :=/home/darkness/Documenti/stutture_c_rpova/struct_1
+WorkspacePath          :=/home/darkness/roma3_c
+ProjectPath            :=/home/darkness/roma3_c/struct_1
 IntermediateDirectory  :=./Debug
 OutDir                 := $(IntermediateDirectory)
 CurrentFileName        :=
@@ -92,7 +92,7 @@ PreBuild:
 ## Objects
 ##
 $(IntermediateDirectory)/main.c$(ObjectSuffix): main.c $(IntermediateDirectory)/main.c$(DependSuffix)
-	$(CC) $(SourceSwitch) "/home/darkness/Documenti/stutture_c_rpova/struct_1/main.c" $(CFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/main.c$(ObjectSuffix) $(IncludePath)
+	$(CC) $(SourceSwitch) "/home/darkness/roma3_c/struct_1/main.c" $(CFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/main.c$(ObjectSuffix) $(IncludePath)
 $(IntermediateDirectory)/main.c$(DependSuffix): main.c
 	@$(CC) $(CFLAGS) $(IncludePath) -MG -MP -MT$(IntermediateDirectory)/main.c$(ObjectSuffix) -MF$(IntermediateDirectory)/main.c$(DependSuffix) -MM main.c
 
