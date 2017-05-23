@@ -1,17 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CodeLite_Workspace Name="stutture_c_rpova" Database="" Version="10.0.0">
   <Project Name="struct_1" Path="struct_1/struct_1.project" Active="No"/>
-  <Project Name="structArray" Path="structArray/structArray.project" Active="Yes"/>
+  <Project Name="structArray" Path="structArray/structArray.project" Active="No"/>
+  <Project Name="Anagrafe" Path="Anagrafe/Anagrafe.project" Active="No"/>
+  <Project Name="files_1" Path="files_1/files_1.project" Active="No"/>
+  <Project Name="mysqlprova" Path="mysqlprova/mysqlprova.project" Active="No"/>
+  <Project Name="lista1" Path="lista1/lista1.project" Active="No"/>
+  <Project Name="anagrafe" Path="anagrafe/anagrafe.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
       <Project Name="struct_1" ConfigName="Debug"/>
       <Project Name="structArray" ConfigName="Debug"/>
+      <Project Name="Anagrafe" ConfigName="Debug"/>
+      <Project Name="files_1" ConfigName="Debug"/>
+      <Project Name="mysqlprova" ConfigName="Debug"/>
+      <Project Name="lista1" ConfigName="Debug"/>
+      <Project Name="anagrafe" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
       <Project Name="struct_1" ConfigName="Release"/>
       <Project Name="structArray" ConfigName="Release"/>
+      <Project Name="Anagrafe" ConfigName="Release"/>
+      <Project Name="files_1" ConfigName="Release"/>
+      <Project Name="mysqlprova" ConfigName="Release"/>
+      <Project Name="lista1" ConfigName="Release"/>
+      <Project Name="anagrafe" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>

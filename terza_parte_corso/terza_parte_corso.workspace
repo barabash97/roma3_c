@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeLite_Workspace Name="terza_parte_corso" Database="" Version="10.0.0">
+  <Project Name="ricerca_completa" Path="ricerca_completa/ricerca_completa.project" Active="No"/>
+  <Project Name="bubble_sort" Path="bubble_sort/bubble_sort.project" Active="No"/>
+  <Project Name="selection_sort" Path="selection_sort/selection_sort.project" Active="No"/>
+  <Project Name="insertion_sort" Path="insertion_sort/insertion_sort.project" Active="Yes"/>
+  <BuildMatrix>
+    <WorkspaceConfiguration Name="Debug" Selected="yes">
+      <Environment/>
+      <Project Name="ricerca_completa" ConfigName="Debug"/>
+      <Project Name="bubble_sort" ConfigName="Debug"/>
+      <Project Name="selection_sort" ConfigName="Debug"/>
+      <Project Name="insertion_sort" ConfigName="Debug"/>
+    </WorkspaceConfiguration>
+    <WorkspaceConfiguration Name="Release" Selected="yes">
+      <Environment/>
+      <Project Name="ricerca_completa" ConfigName="Release"/>
+      <Project Name="bubble_sort" ConfigName="Release"/>
+      <Project Name="selection_sort" ConfigName="Release"/>
+      <Project Name="insertion_sort" ConfigName="Release"/>
+    </WorkspaceConfiguration>
+  </BuildMatrix>
+</CodeLite_Workspace>

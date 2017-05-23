@@ -2,15 +2,7 @@
 <Session Name="D:\OneDrive - Universita degli Studi Roma Tre\roma3_c\seconda_parte_corso_fondinfo.workspace">
   <int Value="0" Name="m_selectedTab"/>
   <wxString Value="D:\OneDrive - Universita degli Studi Roma Tre\roma3_c\seconda_parte_corso_fondinfo.workspace" Name="m_workspaceName"/>
-  <TabInfoArray Name="TabInfoArray">
-    <TabInfo>
-      <wxString Value="D:\OneDrive - Universita degli Studi Roma Tre\roma3_c\polinomioRec\main.c" Name="FileName"/>
-      <int Value="98" Name="FirstVisibleLine"/>
-      <int Value="110" Name="CurrentLine"/>
-      <wxArrayString Name="Bookmarks"/>
-      <IntVector Name="CollapsedFolds"/>
-    </TabInfo>
-  </TabInfoArray>
+  <TabInfoArray Name="TabInfoArray"/>
   <SerializedObject Name="m_breakpoints">
     <long Value="0" Name="Count"/>
   </SerializedObject>
