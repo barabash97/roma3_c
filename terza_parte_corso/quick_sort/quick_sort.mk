@@ -3,10 +3,10 @@
 ## any manual changes will be erased      
 ##
 ## Debug
-ProjectName            :=insertion_sort
+ProjectName            :=quick_sort
 ConfigurationName      :=Debug
 WorkspacePath          :="/mnt/38CA7171CA712C6E/OneDrive - Universita degli Studi Roma Tre/roma3_c/terza_parte_corso"
-ProjectPath            :="/mnt/38CA7171CA712C6E/OneDrive - Universita degli Studi Roma Tre/roma3_c/terza_parte_corso/insertion_sort"
+ProjectPath            :="/mnt/38CA7171CA712C6E/OneDrive - Universita degli Studi Roma Tre/roma3_c/terza_parte_corso/quick_sort"
 IntermediateDirectory  :=./Debug
 OutDir                 := $(IntermediateDirectory)
 CurrentFileName        :=
@@ -32,7 +32,7 @@ Preprocessors          :=
 ObjectSwitch           :=-o 
 ArchiveOutputSwitch    := 
 PreprocessOnlySwitch   :=-E
-ObjectsFileList        :="insertion_sort.txt"
+ObjectsFileList        :="quick_sort.txt"
 PCHCompileFlags        :=
 MakeDirCommand         :=mkdir -p
 LinkOptions            :=  
@@ -92,7 +92,7 @@ PreBuild:
 ## Objects
 ##
 $(IntermediateDirectory)/main.c$(ObjectSuffix): main.c $(IntermediateDirectory)/main.c$(DependSuffix)
-	$(CC) $(SourceSwitch) "/mnt/38CA7171CA712C6E/OneDrive - Universita degli Studi Roma Tre/roma3_c/terza_parte_corso/insertion_sort/main.c" $(CFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/main.c$(ObjectSuffix) $(IncludePath)
+	$(CC) $(SourceSwitch) "/mnt/38CA7171CA712C6E/OneDrive - Universita degli Studi Roma Tre/roma3_c/terza_parte_corso/quick_sort/main.c" $(CFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/main.c$(ObjectSuffix) $(IncludePath)
 $(IntermediateDirectory)/main.c$(DependSuffix): main.c
 	@$(CC) $(CFLAGS) $(IncludePath) -MG -MP -MT$(IntermediateDirectory)/main.c$(ObjectSuffix) -MF$(IntermediateDirectory)/main.c$(DependSuffix) -MM main.c
 
